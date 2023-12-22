@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+}
+main {
+  padding: 1rem;
+}
+
+.header {
+  font-weight: bold;
+  font-size: 130%;
+  text-align: center;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+.button {
+  width: 20%;
+  padding: 1%;
+  margin: 2%;
+  border: none;
+  border-radius: 10%;
+  color: black;
+  font-size: 70%;
+  font-weight: 600;
+}
+.product-item {
+  width: 70%;
+  height: 100%;
+}
+.thumbnail {
+  width: 100%;
+  border-radius: 6px;
+  height: 200px;
+}
+.card-contaier {
+  margin: 5%;
+  height: 300px;
+  width: 170px;
+}
+.name {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.total-cotainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.title {
+  color: black;
+  font-weight: bold;
+  font-size: 100%;
+  margin-top: 0px;
+  margin-bottom: 7px;
+}
+.brand {
+  font-size: 70%;
+  color: black;
+  margin-top: 8px;
+  margin-bottom: 7px;
+}
+.price {
+  display: flex;
+  margin-left: 8px;
+}
+.original-price {
+  font-size: 70%;
+  color: black;
+  font-weight: bold;
+  margin-top: 0px;
+}
+.strike-price {
+  color: grey;
+  font-size: 70%;
+  margin-top: 0px;
+}
+.rate {
+  text-decoration: line-through;
+}
+.offer {
+  color: red;
+  font-size: 70%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.cart-button {
+  width: 100%;
+  background-color: black;
+  color: white;
+  height: 10%;
+  border: none;
+  border-radius: 6px;
+  margin-top: 0px;
+  margin-left: 8px;
+}
+
+.container {
+  min-height: 100vh;
+  background-color: rgba(243, 243, 197, 0.329);
+  padding-top: 0px;
+}
+.overlap {
+  position: relative;
+  width: 100%;
+}
+.over-top {
+  position: absolute;
+  bottom: 180px;
+  left: 10px;
+  background-color: white;
+  border: none;
+  font-size: 10px;
+}
